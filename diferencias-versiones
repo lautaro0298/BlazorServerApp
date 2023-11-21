@@ -1,0 +1,8 @@
+En .NET 6, la clase Startup.cs se ha eliminado y se ha unificado con Program.cs. Ahora, el registro de middleware, servicios, la adición de DbContext y todo lo demás se realiza en el archivo Program.cs 12. Por lo tanto, no es necesario tener una clase Startup.cs en su proyecto de Blazor Server. En su lugar, puede agregar el contexto de la base de datos en el archivo Program.cs utilizando builder.Services.AddDbContext 1. Aquí hay un ejemplo de cómo agregar el contexto de la base de datos en Program.cs:
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+var app = builder.Build();
+app.Run();
