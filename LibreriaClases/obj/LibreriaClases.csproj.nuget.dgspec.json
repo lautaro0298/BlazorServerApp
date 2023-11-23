@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/lroot/Escritorio/BootcampBlazor/LibreriaClases/LibreriaClases.csproj": {}
+    "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\LibreriaClases.csproj": {}
   },
   "projects": {
-    "/home/lroot/Escritorio/BootcampBlazor/LibreriaClases/LibreriaClases.csproj": {
+    "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\LibreriaClases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lroot/Escritorio/BootcampBlazor/LibreriaClases/LibreriaClases.csproj",
+        "projectUniqueName": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\LibreriaClases.csproj",
         "projectName": "LibreriaClases",
-        "projectPath": "/home/lroot/Escritorio/BootcampBlazor/LibreriaClases/LibreriaClases.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/lroot/Escritorio/BootcampBlazor/LibreriaClases/obj/",
+        "projectPath": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\LibreriaClases.csproj",
+        "packagesPath": "C:\\Users\\Lautaro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lautaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,12 +50,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/bin/sdk/7.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
         }
       }
     }

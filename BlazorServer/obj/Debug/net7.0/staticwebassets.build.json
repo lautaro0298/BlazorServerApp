@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EWgf9GdqyOKl46Nu3LeiP67p5Oc6OFSMmh0AG7sS83I=",
+  "Hash": "8ovgFROcJTqL2epEa9+g2itcutPrFFx4AJhl2x57E20=",
   "Source": "BlazorServer",
   "BasePath": "_content/BlazorServer",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorServer/wwwroot",
+      "Name": "BlazorServer\\wwwroot",
       "Source": "BlazorServer",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/obj/Debug/net7.0/scopedcss/bundle/BlazorServer.styles.css",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorServer.styles.css",
       "SourceId": "BlazorServer",
       "SourceType": "Computed",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "BlazorServer.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/obj/Debug/net7.0/scopedcss/bundle/BlazorServer.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorServer.styles.css"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/obj/Debug/net7.0/scopedcss/projectbundle/BlazorServer.bundle.scp.css",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServer.bundle.scp.css",
       "SourceId": "BlazorServer",
       "SourceType": "Computed",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "BlazorServer.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/obj/Debug/net7.0/scopedcss/projectbundle/BlazorServer.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServer.bundle.scp.css"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,30 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
-      "BasePath": "_content/BlazorServer",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
-    },
-    {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "SourceId": "BlazorServer",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +184,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
+      "BasePath": "_content/BlazorServer",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "BlazorServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/open-iconic/README.md",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\css\\site.css",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\favicon.png",
       "SourceId": "BlazorServer",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lroot/Escritorio/BootcampBlazor/BlazorServer/wwwroot/",
+      "ContentRoot": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorServer\\wwwroot\\",
       "BasePath": "_content/BlazorServer",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -269,7 +269,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     }
   ]
 }

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "BlazorServer/1.0.0": {
+        "dependencies": {
+          "LibreriaClases": "1.0.0"
+        },
         "runtime": {
           "BlazorServer.dll": {}
+        }
+      },
+      "LibreriaClases/1.0.0": {
+        "runtime": {
+          "LibreriaClases.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BlazorServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibreriaClases/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
