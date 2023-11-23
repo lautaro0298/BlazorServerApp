@@ -1,0 +1,172 @@
+--CREAR TABLAS
+
+/*    ==Scripting Parameters==
+
+    Source Server Version : SQL Server 2016 (13.0.4259)
+    Source Database Engine Edition : Microsoft SQL Server Express Edition
+    Source Database Engine Type : Standalone SQL Server
+
+    Target Server Version : SQL Server 2016
+    Target Database Engine Edition : Microsoft SQL Server Express Edition
+    Target Database Engine Type : Standalone SQL Server
+*/
+
+USE [BlazorUdemy]
+GO
+
+/****** Object:  Table [dbo].[Alumno]    Script Date: 22/06/2020 19:11:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Alumno](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](500) NOT NULL,
+	[Email] [varchar](500) NOT NULL,
+	[Foto] [varchar](500) NOT NULL,
+	[FechaAlta] [datetime] NOT NULL,
+	[FechaBaja] [datetime] NULL,
+ CONSTRAINT [PK_Alumno] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[AlumnosCurso]    Script Date: 22/06/2020 19:11:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[AlumnosCurso](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[IdAlumno] [int] NOT NULL,
+	[IdCurso] [int] NOT NULL,
+ CONSTRAINT [PK_AlimnosCurso] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[Curso]    Script Date: 22/06/2020 19:11:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Curso](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[NombreCurso] [varchar](500) NOT NULL,
+ CONSTRAINT [PK_Curso] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[CursoPrecios]    Script Date: 22/06/2020 19:11:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CursoPrecios](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[IdCurso] [int] NOT NULL,
+	[IdPrecio] [int] NOT NULL,
+ CONSTRAINT [PK_CursoPrecios] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[Precio]    Script Date: 22/06/2020 19:11:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Precio](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Coste] [float] NOT NULL,
+	[FechaInicio] [datetime] NOT NULL,
+	[FechaFin] [datetime] NOT NULL,
+ CONSTRAINT [PK_Precio] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[AlumnosCurso]  WITH CHECK ADD  CONSTRAINT [FK_AlumnosCurso_Alumno] FOREIGN KEY([IdAlumno])
+REFERENCES [dbo].[Alumno] ([Id])
+GO
+
+ALTER TABLE [dbo].[AlumnosCurso] CHECK CONSTRAINT [FK_AlumnosCurso_Alumno]
+GO
+
+ALTER TABLE [dbo].[AlumnosCurso]  WITH CHECK ADD  CONSTRAINT [FK_AlumnosCurso_Curso] FOREIGN KEY([IdCurso])
+REFERENCES [dbo].[Curso] ([Id])
+GO
+
+ALTER TABLE [dbo].[AlumnosCurso] CHECK CONSTRAINT [FK_AlumnosCurso_Curso]
+GO
+
+ALTER TABLE [dbo].[CursoPrecios]  WITH CHECK ADD  CONSTRAINT [FK_CursoPrecios_Curso] FOREIGN KEY([IdCurso])
+REFERENCES [dbo].[Curso] ([Id])
+GO
+
+ALTER TABLE [dbo].[CursoPrecios] CHECK CONSTRAINT [FK_CursoPrecios_Curso]
+GO
+
+ALTER TABLE [dbo].[CursoPrecios]  WITH CHECK ADD  CONSTRAINT [FK_CursoPrecios_Precio] FOREIGN KEY([IdPrecio])
+REFERENCES [dbo].[Precio] ([Id])
+GO
+
+ALTER TABLE [dbo].[CursoPrecios] CHECK CONSTRAINT [FK_CursoPrecios_Precio]
+GO
+
+
+
+
+--INSERTAR REGISTROS
+
+
+INSERT INTO dbo.Alumno(Nombre,Email,Foto,FechaAlta,FechaBaja)VALUES('Jap Software','Mail@pruebamail.es','images/Alumno1.jpg',GETDATE(),NULL)
+INSERT INTO dbo.Alumno(Nombre,Email,Foto,FechaAlta,FechaBaja)VALUES('Jap Software 2','Mail2@pruebamail.es','images/Alumno2.jpg',GETDATE(),NULL)
+INSERT INTO dbo.Alumno(Nombre,Email,Foto,FechaAlta,FechaBaja)VALUES('Jap Software 3','Mail3@pruebamail.es','images/ChicaCodigo65.jpg',GETDATE(),NULL)
+
+INSERT INTO dbo.Curso(NombreCurso) VALUES ('Curso Blazor')
+INSERT INTO dbo.Curso(NombreCurso) VALUES ('Curso C#')
+
+INSERT INTO dbo.Precio(Coste,FechaInicio,FechaFin)VALUES (19.99,GETDATE(),DATEADD(d,3,GETDATE()))
+
+INSERT INTO dbo.AlumnosCurso(IdAlumno,IdCurso)VALUES (1,1)
+INSERT INTO dbo.AlumnosCurso(IdAlumno,IdCurso)VALUES (1,2)
+INSERT INTO dbo.AlumnosCurso(IdAlumno,IdCurso)VALUES (2,1)
+INSERT INTO dbo.AlumnosCurso(IdAlumno,IdCurso)VALUES (3,1)
+
+
+INSERT INTO dbo.CursoPrecios(IdCurso,IdPrecio) VALUES (1,1)
+INSERT INTO dbo.CursoPrecios(IdCurso,IdPrecio) VALUES (2,1)
+
+
+
+--CONSULTA
+
+
+select nombre,Email,NombreCurso,Coste,FechaInicio, FechaFin from Alumno
+inner join AlumnosCurso ON Alumno.Id = AlumnosCurso.IdAlumno
+inner join Curso on Curso.Id = AlumnosCurso.IdCurso
+inner join CursoPrecios on Curso.Id =CursoPrecios.IdCurso
+inner join Precio on Precio.Id =CursoPrecios.IdPrecio	
+where IdAlumno=1
