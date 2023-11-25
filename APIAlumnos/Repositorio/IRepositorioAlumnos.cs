@@ -12,7 +12,7 @@ namespace APIAlumnos.Repositorio
 
          Task<IEnumerable<Alumno>> DameAlumnos();
 
-         Task<Alumno> DameAlumno(int id);
+        Task<Alumno> DameAlumnos(int id);
 
          Task<bool> ModificarAlumno(Alumno Alumno);
 

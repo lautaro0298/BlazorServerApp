@@ -6,6 +6,9 @@ using APIAlumnos.Datos;
 using Microsoft.Data.SqlClient;
 using LibreriaClases;
 using System.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace APIAlumnos.Repositorio
 {
@@ -33,13 +36,51 @@ namespace APIAlumnos.Repositorio
             throw new NotImplementedException();
         }
 
-        public Task<Alumno> DameAlumno(int id)
+        public async Task<Alumno> DameAlumnos(int id)
         {
-            throw new NotImplementedException();
+           Alumno alumno = null;
+            await using SqlConnection sqlConexion = conexion();
+            await using SqlCommand Comm = sqlConexion.CreateCommand();
+     
+            SqlDataReader reader = null;
+            try
+            {
+                await sqlConexion.OpenAsync();
+                Comm.CommandText = "dbo.UsuarioDameAlumnos";
+                Comm.CommandType = CommandType.StoredProcedure;
+                Comm.Parameters.Add("id",SqlDbType.Int).Value=id;
+                reader = await Comm.ExecuteReaderAsync();//Se ha agregado la palabra clave await a las llamadas a los métodos OpenAsync() y ExecuteReaderAsync() para indicar que son operaciones asincrónicas
+                if (await reader.ReadAsync())
+                {
+                    alumno = new Alumno();
+                    alumno.id = reader.GetInt32(reader.GetOrdinal("id"));
+                    alumno.nombre = reader.GetString(reader.GetOrdinal("nombre"));
+                    alumno.email = reader.GetString(reader.GetOrdinal("email"));
+                    alumno.foto = reader.GetString(reader.GetOrdinal("foto"));
+                    alumno.fechaAlta = reader.GetDateTime(reader.GetOrdinal("fechaAlta"));
+                    if (!reader.IsDBNull(reader.GetOrdinal("fechaBaja")))     //Se ha utilizado el método GetInt32(), GetString(), GetDateTime() y IsDBNull() en lugar de Convert.ToInt32(), ToString(), Convert.ToDateTime() y System.DBNull.Value respectivamente para mejorar la legibilidad del código.
+                        alumno.fechaBaja = reader.GetDateTime(reader.GetOrdinal("fechaBaja"));
+
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error cargando los datos de nuestros alumno " + ex.Message);
+            }
+            finally
+            {
+                if (reader != null)
+                    reader.Close();
+
+                Comm.Dispose();
+                await sqlConexion.CloseAsync();
+            }
+
+            return alumno;
         }
         //Esto es ADO.NET Se puede crear las consultas directamente en el Codigo pero no es recomendable lo mejor es accedar a procedimiento almacenados ya que tienen toda una estructura de proteccion
-        public async Task<IEnumerable<Alumno>> DameAlumnos()
-        /*   {
+        /*   
+         *    public async Task<IEnumerable<Alumno>> DameAlumnos(){
                List<Alumno> lista = new List<Alumno>();
                SqlConnection sqlConexion = conexion();
                SqlCommand Comm = null;
@@ -85,35 +126,33 @@ namespace APIAlumnos.Repositorio
            }
         
          En la versión actualizada del código, se han realizado los siguientes cambios:
-
-Se ha agregado la palabra clave async a la definición del método DameAlumnos() para indicar que es un método asincrónico.
-Se ha agregado la palabra clave await a las llamadas a los métodos OpenAsync() y ExecuteReaderAsync() para indicar que son operaciones asincrónicas.
-Se ha agregado la palabra clave using a la definición de la conexión SQL y el comando SQL para garantizar que se liberen los recursos de manera adecuada después de su uso.
-Se ha utilizado el método GetInt32(), GetString(), GetDateTime() y IsDBNull() en lugar de Convert.ToInt32(), ToString(), Convert.ToDateTime() y System.DBNull.Value respectivamente para mejorar la legibilidad del código.
-Estos cambios se han realizado para mejorar la eficiencia y la legibilidad del código en .NET 7.
- En .NET 7, la creación de un objeto SqlCommand se puede realizar directamente en la definición de la conexión SQL mediante el uso de la palabra clave using. En la versión actualizada del código, se ha utilizado la palabra clave using para definir la conexión SQL y el comando SQL.
- Esto garantiza que los recursos se liberen de manera adecuada después de su uso y mejora la legibilidad del código 
          */
+        
+        
+        public async Task<IEnumerable<Alumno>> DameAlumnos() 
         {
             List<Alumno> lista = new List<Alumno>();
             await using SqlConnection sqlConexion = conexion();
-            await using SqlCommand Comm = sqlConexion.CreateCommand();
+            await using SqlCommand Comm = sqlConexion.CreateCommand();//Se ha agregado la palabra clave using a la definición de la conexión SQL y el comando SQL para garantizar que se liberen los recursos de manera adecuada después de su uso.
+                                                                      //  Estos cambios se han realizado para mejorar la eficiencia y la legibilidad del código en.NET 7.
+                                                                      //   En.NET 7, la creación de un objeto SqlCommand se puede realizar directamente en la definición de la conexión SQL mediante el uso de la palabra clave using. En la versión actualizada del código, se ha utilizado la palabra clave using para definir la conexión SQL y el comando SQL.
+                                                                     //Esto garantiza que los recursos se liberen de manera adecuada después de su uso y mejora la legibilidad del código
             SqlDataReader reader = null;
             try
             {
                 await sqlConexion.OpenAsync();
                 Comm.CommandText = "dbo.UsuarioDameAlumnos";
                 Comm.CommandType = CommandType.StoredProcedure;
-                reader = await Comm.ExecuteReaderAsync();
+                reader = await Comm.ExecuteReaderAsync();//Se ha agregado la palabra clave await a las llamadas a los métodos OpenAsync() y ExecuteReaderAsync() para indicar que son operaciones asincrónicas
                 while (await reader.ReadAsync())
                 {
                     Alumno alu = new Alumno();
                     alu.id = reader.GetInt32(reader.GetOrdinal("id"));
                     alu.nombre = reader.GetString(reader.GetOrdinal("nombre"));
-                    alu.email = reader.GetString(reader.GetOrdinal("nmail"));
+                    alu.email = reader.GetString(reader.GetOrdinal("email"));
                     alu.foto = reader.GetString(reader.GetOrdinal("foto"));
                     alu.fechaAlta = reader.GetDateTime(reader.GetOrdinal("fechaAlta"));
-                    if (!reader.IsDBNull(reader.GetOrdinal("fechaBaja")))
+                    if (!reader.IsDBNull(reader.GetOrdinal("fechaBaja")))     //Se ha utilizado el método GetInt32(), GetString(), GetDateTime() y IsDBNull() en lugar de Convert.ToInt32(), ToString(), Convert.ToDateTime() y System.DBNull.Value respectivamente para mejorar la legibilidad del código.
                         alu.fechaBaja = reader.GetDateTime(reader.GetOrdinal("fechaBaja"));
 
                     lista.Add(alu);
