@@ -9,6 +9,7 @@ using System.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http.HttpResults;
+using System.Reflection.PortableExecutable;
 
 namespace APIAlumnos.Repositorio
 {
@@ -26,9 +27,43 @@ namespace APIAlumnos.Repositorio
             return new SqlConnection(CadenaConexion);
         }
 
-        public Task<bool> AltaAlumno(Alumno Alumno)
+        public async Task<Alumno> AltaAlumno(Alumno Alumno)
         {
-            throw new NotImplementedException();
+            Alumno alumnoCreado = null;
+            await using SqlConnection sqlConexion = conexion();
+            await using SqlCommand Comm = sqlConexion.CreateCommand();
+            SqlDataReader reader = null;
+            try
+            {
+                await sqlConexion.OpenAsync();
+                Comm.CommandText = "dbo.UsuarioAltaAlumno";
+                Comm.CommandType = CommandType.StoredProcedure;
+                Comm.Parameters.Add("@nombre", SqlDbType.VarChar, 500).Value = Alumno.nombre;
+                Comm.Parameters.Add("@email", SqlDbType.VarChar, 500).Value = Alumno.email;
+                Comm.Parameters.Add("@foto", SqlDbType.VarChar, 500).Value = Alumno.foto;
+                Comm.Parameters.Add("@fechaAlta", SqlDbType.DateTime).Value = Alumno.fechaAlta;
+                reader = await Comm.ExecuteReaderAsync();
+                if (await reader.ReadAsync())
+                {
+                    alumnoCreado = await DameAlumnos(Convert.ToInt32(reader["idAlumno"]));
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error cargando los datos de nuestros alumno " + ex.Message);
+            }
+            finally
+            {
+                if (reader != null)
+                    await reader.CloseAsync();
+
+                await Comm.DisposeAsync();
+                await sqlConexion.CloseAsync();
+                await Comm.DisposeAsync();
+            }
+
+            return alumnoCreado;
+
         }
 
         public Task<bool> BorrarAlumno(int id)
@@ -70,11 +105,14 @@ namespace APIAlumnos.Repositorio
             finally
             {
                 if (reader != null)
-                    reader.Close();
+                    await reader.CloseAsync();
 
-                Comm.Dispose();
+                await Comm.DisposeAsync();
                 await sqlConexion.CloseAsync();
+                await Comm.DisposeAsync();
             }
+
+        
 
             return alumno;
         }
@@ -165,17 +203,65 @@ namespace APIAlumnos.Repositorio
             finally
             {
                 if (reader != null)
-                    reader.Close();
+                    await reader.CloseAsync();
 
-                Comm.Dispose();
+                await Comm.DisposeAsync();
                 await sqlConexion.CloseAsync();
+                await Comm.DisposeAsync();
             }
+
 
             return lista;
         }
         public Task<bool> ModificarAlumno(Alumno Alumno)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<Alumno> DameAlumnos(string email)
+        {
+            Alumno alumno = null;
+            await using SqlConnection sqlConexion = conexion();
+            await using SqlCommand Comm = sqlConexion.CreateCommand();
+
+            SqlDataReader reader = null;
+            try
+            {
+                await sqlConexion.OpenAsync();
+                Comm.CommandText = "dbo.UsuarioDameAlumnos";
+                Comm.CommandType = CommandType.StoredProcedure;
+                Comm.Parameters.Add("email", SqlDbType.VarChar).Value = email;
+                reader = await Comm.ExecuteReaderAsync();//Se ha agregado la palabra clave await a las llamadas a los métodos OpenAsync() y ExecuteReaderAsync() para indicar que son operaciones asincrónicas
+                if (await reader.ReadAsync())
+                {
+                    alumno = new Alumno();
+                    alumno.id = reader.GetInt32(reader.GetOrdinal("id"));
+                    alumno.nombre = reader.GetString(reader.GetOrdinal("nombre"));
+                    alumno.email = reader.GetString(reader.GetOrdinal("email"));
+                    alumno.foto = reader.GetString(reader.GetOrdinal("foto"));
+                    alumno.fechaAlta = reader.GetDateTime(reader.GetOrdinal("fechaAlta"));
+                    if (!reader.IsDBNull(reader.GetOrdinal("fechaBaja")))     //Se ha utilizado el método GetInt32(), GetString(), GetDateTime() y IsDBNull() en lugar de Convert.ToInt32(), ToString(), Convert.ToDateTime() y System.DBNull.Value respectivamente para mejorar la legibilidad del código.
+                        alumno.fechaBaja = reader.GetDateTime(reader.GetOrdinal("fechaBaja"));
+
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error cargando los datos de nuestros alumno " + ex.Message);
+            }
+            finally
+            {
+                if (reader != null)
+                    await reader.CloseAsync();
+
+                await Comm.DisposeAsync();
+                await sqlConexion.CloseAsync();
+                await Comm.DisposeAsync();
+            }
+
+
+
+            return alumno;
         }
     }
 }

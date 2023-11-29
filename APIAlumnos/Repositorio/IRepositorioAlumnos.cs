@@ -8,13 +8,13 @@ namespace APIAlumnos.Repositorio
 {
     public interface IRepositorioAlumnos
     {
-         Task<bool> AltaAlumno(Alumno Alumno);
+         Task<Alumno> AltaAlumno(Alumno Alumno);
 
          Task<IEnumerable<Alumno>> DameAlumnos();
 
         Task<Alumno> DameAlumnos(int id);
-
-         Task<bool> ModificarAlumno(Alumno Alumno);
+        Task<Alumno> DameAlumnos(string email);
+        Task<bool> ModificarAlumno(Alumno Alumno);
 
          Task<bool> BorrarAlumno(int id);
     }

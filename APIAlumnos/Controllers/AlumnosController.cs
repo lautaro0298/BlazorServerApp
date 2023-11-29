@@ -63,7 +63,14 @@ namespace APIAlumnos.Controllers
                 {
                     return BadRequest();
                 }
+                var alumnoAux = await alumnosRepositorio.DameAlumnos(alumno.email);
+                if(alumnoAux == null)
+                {
+                    ModelState.AddModelError("email", "el email ya esta esta en uso");
+                    return BadRequest(ModelState) ;
+                }
                 var nuevoAlumno = await alumnosRepositorio.AltaAlumno(alumno);
+                return nuevoAlumno;
             }
             catch (Exception)
             {
