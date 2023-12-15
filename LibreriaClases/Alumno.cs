@@ -20,6 +20,6 @@ namespace LibreriaClases
         [Required(ErrorMessage = "El campo mail es obligatorio")]
         public DateTime fechaAlta { get; set; }
         public DateTime? fechaBaja { get; set; }
-        public List<Curso>? ListaCurso { get; set; }
+        //public List<Curso>? ListaCurso { get; set; }
     }
 }

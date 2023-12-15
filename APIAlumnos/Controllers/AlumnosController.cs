@@ -51,9 +51,61 @@ namespace APIAlumnos.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
             }
         }
+        [HttpGet("{BuscarAlumnos}")]
+        public async Task<ActionResult> DameAlumnos(string texto)
+        {
+            try
+            {
+                return Ok(await alumnosRepositorio.BuscarAlumnos(texto));
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
 
-
-
+        [HttpPut("id:int")]
+        public async Task<ActionResult<Alumno>> ModificarAlumno(int id,Alumno alumno)
+        {
+            try
+            {
+                if(id != alumno.id)
+                {
+                    return BadRequest();
+                }
+              var alumnoModificar= await alumnosRepositorio.DameAlumnos(id);
+              if(alumnoModificar == null)
+                {
+                    return NotFound($"Alumno con ={id} no encontrado" );
+                }
+                return await alumnosRepositorio.ModificarAlumno(alumno);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
+        [HttpDelete("id:int")]
+        public async Task<ActionResult<Alumno>> EliminarAlumno(int id, Alumno alumno)
+        {
+            try
+            {
+                if (id != alumno.id)
+                {
+                    return BadRequest();
+                }
+                var alumnoEliminar = await alumnosRepositorio.DameAlumnos(id);
+                if (alumnoEliminar == null)
+                {
+                    return NotFound($"Alumno con ={id} no encontrado");
+                }
+                return await alumnosRepositorio.BorrarAlumno(id);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
         [HttpPost]
         public async Task<ActionResult<Alumno>> CrearAlumno(Alumno alumno)
         {

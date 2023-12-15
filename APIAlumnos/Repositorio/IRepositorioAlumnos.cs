@@ -14,8 +14,10 @@ namespace APIAlumnos.Repositorio
 
         Task<Alumno> DameAlumnos(int id);
         Task<Alumno> DameAlumnos(string email);
-        Task<bool> ModificarAlumno(Alumno Alumno);
+        Task<Alumno> ModificarAlumno(Alumno Alumno);
 
-         Task<bool> BorrarAlumno(int id);
+         Task<Alumno> BorrarAlumno(int id);
+        Task<IEnumerable<Alumno>>BuscarAlumnos(string texto);
+
     }
 }
