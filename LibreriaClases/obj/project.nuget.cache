@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "53jjzNe0dnrBYq0+VIBUcYFYvwF62MUNKh0+lznmQx9p5pLJojKPn79UFmNqRW881XqriwtHcX39K7c2TajUsg==",
+  "dgSpecHash": "4Q8tXjWGGF9pGFTawSzM2+48ypaNyAJo/l0vWMSZRqx0XWr4qEU/RT0PQGmyUmOOFkdAksd5USSOIrOwZguH5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\LibreriaClases.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Lautaro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.5\\microsoft.windowsdesktop.app.ref.7.0.5.nupkg.sha512",
-    "C:\\Users\\Lautaro\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.5\\microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
-    "C:\\Users\\Lautaro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.5\\microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

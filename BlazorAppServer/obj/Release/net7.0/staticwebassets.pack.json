@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\BlazorAppServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorAppServer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\0ea9af36-1718-4d2a-b19c-3f8363b6375b.jpg",
+      "PackagePath": "staticwebassets\\images\\0ea9af36-1718-4d2a-b19c-3f8363b6375b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\1d70d988-68ba-4cc5-afb9-94820f794147.jpg",
+      "PackagePath": "staticwebassets\\images\\1d70d988-68ba-4cc5-afb9-94820f794147.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\2a9250b9-d3bd-4d51-8820-8bc5317a9338.jpg",
+      "PackagePath": "staticwebassets\\images\\2a9250b9-d3bd-4d51-8820-8bc5317a9338.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\36f6b6ba-30b1-4b0a-8a7e-aa24b5f4804d.jpg",
+      "PackagePath": "staticwebassets\\images\\36f6b6ba-30b1-4b0a-8a7e-aa24b5f4804d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\44cb6068-dc64-46ca-afd7-1e34a00aa2da.jpg",
+      "PackagePath": "staticwebassets\\images\\44cb6068-dc64-46ca-afd7-1e34a00aa2da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\4784c722-a92d-41cc-8c5f-25c778557810.jpg",
+      "PackagePath": "staticwebassets\\images\\4784c722-a92d-41cc-8c5f-25c778557810.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\85bd7f01-b8ca-4dfd-8468-d55b08c100d6.jpg",
+      "PackagePath": "staticwebassets\\images\\85bd7f01-b8ca-4dfd-8468-d55b08c100d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\9c2b9a73-2304-411a-8a59-19580dbe6ee9.jpg",
+      "PackagePath": "staticwebassets\\images\\9c2b9a73-2304-411a-8a59-19580dbe6ee9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\Alumno1.jpg",
+      "PackagePath": "staticwebassets\\images\\Alumno1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\Alumno2.jpg",
+      "PackagePath": "staticwebassets\\images\\Alumno2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\ChicaCodigo.jpg",
+      "PackagePath": "staticwebassets\\images\\ChicaCodigo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\ChicaCodigo65.jpg",
+      "PackagePath": "staticwebassets\\images\\ChicaCodigo65.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\images\\ea1e3764-7bd5-47eb-bcbe-6237d428892e.jpg",
+      "PackagePath": "staticwebassets\\images\\ea1e3764-7bd5-47eb-bcbe-6237d428892e.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.BlazorAppServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.BlazorAppServer.props",
+      "PackagePath": "build\\BlazorAppServer.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppServer.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppServer.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppServer.props",
+      "PackagePath": "buildTransitive\\BlazorAppServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

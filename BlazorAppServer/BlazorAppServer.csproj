@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\APIAlumnos\APIAlumnos.csproj" />
     <ProjectReference Include="..\LibreriaClases\LibreriaClases.csproj" />
   </ItemGroup>

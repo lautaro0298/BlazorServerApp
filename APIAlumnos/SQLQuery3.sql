@@ -7,7 +7,7 @@ ALTER PROCEDURE [dbo].[UsuarioMarcaBaja](
 BEGIN
 IF(SELECT count(*) FROM Alumno WHERE id=@IdAlumno and fechaBaja is not null)=1
 begin
-RAISERROR('Este alumno ua esta de naja',16,1);
+RAISERROR('Este alumno ya esta de baja',16,1);
 RETURN -1
 END
 UPDATE dbo.Alumno SET fechaBaja = GETDATE()WHERE id=@idAlumno

@@ -1,0 +1,478 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\blazorappserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\blazorappserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\sqlquery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\sqlquery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\repositorio\\repositoriocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\repositorio\\repositoriocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\inscribiralumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\inscribiralumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\cursosalumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\cursosalumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\servicios\\iserviciocursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\servicios\\iserviciocursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\servicios\\serviciocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\servicios\\serviciocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\servicios\\servicioalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\servicios\\servicioalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\repositorio\\irepositoriocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\repositorio\\irepositoriocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\modificaralumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\modificaralumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\listaalumnosbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\listaalumnosbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\nuevoalumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\nuevoalumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\nuevoalumnobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\nuevoalumnobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\detallealumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\detallealumno.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\pages\\detallealumnobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\pages\\detallealumnobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\blazorappserver\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E5E46568-351B-443E-A2C3-43AF4EA66963}|BlazorAppServer\\BlazorAppServer.csproj|solutionrelative:blazorappserver\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\sqlquery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|c:\\users\\lautaro\\source\\repos\\lautaro0298\\blazorserverapp\\apialumnos\\sqlquery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{9474D4C8-17D2-4DA5-AC1A-54F622C19EC8}|APIAlumnos\\APIAlumnos.csproj|solutionrelative:apialumnos\\sqlquery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Program.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Program.cs",
+              "RelativeToolTip": "BlazorAppServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T03:25:53.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IServicioCursos.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Servicios\\IServicioCursos.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Servicios\\IServicioCursos.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Servicios\\IServicioCursos.cs",
+              "RelativeToolTip": "BlazorAppServer\\Servicios\\IServicioCursos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-22T10:05:03.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorAppServer\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\appsettings.json",
+              "RelativeToolTip": "BlazorAppServer\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-21T06:28:58.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-21T09:26:16.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositorioCurso.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Repositorio\\RepositorioCurso.cs",
+              "RelativeDocumentMoniker": "APIAlumnos\\Repositorio\\RepositorioCurso.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Repositorio\\RepositorioCurso.cs",
+              "RelativeToolTip": "APIAlumnos\\Repositorio\\RepositorioCurso.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAwKgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T05:08:18.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorAppServer\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-22T17:59:54.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlazorAppServer.csproj",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\BlazorAppServer.csproj",
+              "RelativeDocumentMoniker": "BlazorAppServer\\BlazorAppServer.csproj",
+              "ToolTip": "C:\\Users\\Lautaro\\Source\\Repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\BlazorAppServer.csproj",
+              "RelativeToolTip": "BlazorAppServer\\BlazorAppServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-22T04:46:50.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\appsettings.json",
+              "RelativeDocumentMoniker": "APIAlumnos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\appsettings.json",
+              "RelativeToolTip": "APIAlumnos\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-21T03:36:34.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "APIAlumnos\\SQLQuery2.sql",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\SQLQuery2.sql",
+              "RelativeToolTip": "APIAlumnos\\SQLQuery2.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-20T01:15:10.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLQuery3.sql ",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\SQLQuery3.sql",
+              "RelativeDocumentMoniker": "APIAlumnos\\SQLQuery3.sql",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\SQLQuery3.sql",
+              "RelativeToolTip": "APIAlumnos\\SQLQuery3.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-20T01:16:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CursosAlumno.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\CursosAlumno.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\CursosAlumno.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\CursosAlumno.razor",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\CursosAlumno.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-22T06:24:03.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "APIAlumnos\\Controllers\\CursoController.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "APIAlumnos\\Controllers\\CursoController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T05:08:18.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InscribirAlumno.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\InscribirAlumno.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\InscribirAlumno.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\InscribirAlumno.razor",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\InscribirAlumno.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-22T09:57:54.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServicioCurso.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Servicios\\ServicioCurso.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Servicios\\ServicioCurso.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Servicios\\ServicioCurso.cs",
+              "RelativeToolTip": "BlazorAppServer\\Servicios\\ServicioCurso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-22T10:02:05.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServicioAlumnos.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Servicios\\ServicioAlumnos.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Servicios\\ServicioAlumnos.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Servicios\\ServicioAlumnos.cs",
+              "RelativeToolTip": "BlazorAppServer\\Servicios\\ServicioAlumnos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-22T10:02:24.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepositorioCurso.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Repositorio\\IRepositorioCurso.cs",
+              "RelativeDocumentMoniker": "APIAlumnos\\Repositorio\\IRepositorioCurso.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Repositorio\\IRepositorioCurso.cs",
+              "RelativeToolTip": "APIAlumnos\\Repositorio\\IRepositorioCurso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-22T10:11:24.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NuevoAlumnoBase.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\NuevoAlumnoBase.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\NuevoAlumnoBase.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\NuevoAlumnoBase.cs",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\NuevoAlumnoBase.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T07:07:14.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NuevoAlumno.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\NuevoAlumno.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\NuevoAlumno.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\NuevoAlumno.razor",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\NuevoAlumno.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-21T07:05:52.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModificarAlumno.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\ModificarAlumno.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\ModificarAlumno.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\ModificarAlumno.razor",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\ModificarAlumno.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-21T22:01:20.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListaAlumnosBase.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\ListaAlumnosBase.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\ListaAlumnosBase.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\ListaAlumnosBase.cs",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\ListaAlumnosBase.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwCYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T03:07:24.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "BlazorAppServer\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-22T05:08:25.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DetalleAlumno.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\DetalleAlumno.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\DetalleAlumno.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\DetalleAlumno.razor",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\DetalleAlumno.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-21T05:20:12.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-21T23:09:47.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DetalleAlumnoBase.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\DetalleAlumnoBase.cs",
+              "RelativeDocumentMoniker": "BlazorAppServer\\Pages\\DetalleAlumnoBase.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\Pages\\DetalleAlumnoBase.cs",
+              "RelativeToolTip": "BlazorAppServer\\Pages\\DetalleAlumnoBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T05:20:38.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APIAlumnos\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APIAlumnos\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-21T03:36:54.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BlazorAppServer\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorAppServer\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BlazorAppServer\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAFkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-01-21T03:45:13.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Program.cs",
+              "RelativeDocumentMoniker": "APIAlumnos\\Program.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\APIAlumnos\\Program.cs",
+              "RelativeToolTip": "APIAlumnos\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-19T15:33:46.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,49 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorAppServer
 build_property.RootNamespace = BlazorAppServer
-build_property.ProjectDir = C:\Users\Lautaro\source\repos\lautaro0298\BlazorServerApp\BlazorAppServer\
+build_property.ProjectDir = C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\BlazorAppServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lautaro\source\repos\lautaro0298\BlazorServerApp\BlazorAppServer
+build_property.MSBuildProjectDirectory = C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\BlazorAppServer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/App.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/Counter.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/Index.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/CursosAlumno.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zQWx1bW5vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/DetalleAlumno.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxsZUFsdW1uby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/ListaAlumnos.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/InscribirAlumno.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zY3JpYmlyQWx1bW5vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/ListaAlumnos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFBbHVtbm9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Shared/SurveyPrompt.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/ModificarAlumno.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyQWx1bW5vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/NuevoAlumno.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVldm9BbHVtbm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/_Imports.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Shared/MainLayout.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yklae91de5
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Shared/NavMenu.razor]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ry2w03dqq8
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/Error.cshtml]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lautaro/source/repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/_Host.cshtml]
+[C:/Users/Lautaro/Source/Repos/lautaro0298/BlazorServerApp/BlazorAppServer/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

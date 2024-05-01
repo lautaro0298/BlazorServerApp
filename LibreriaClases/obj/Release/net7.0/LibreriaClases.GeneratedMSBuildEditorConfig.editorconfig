@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibreriaClases
 build_property.ProjectDir = C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

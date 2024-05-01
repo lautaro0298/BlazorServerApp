@@ -1,0 +1,35 @@
+﻿@page "/DetalleAlumno/{id}"
+@using BlazorServer.Pages;
+@inherits DetalleAlumnoBase
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@alumno.nombre</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" src="@alumno.foto" />
+
+                <h4>Alumno id : @alumno.id</h4>
+                <h4>Email : @alumno.email</h4>
+                <h4>Fecha de alta: @alumno.fechaAlta</h4>
+                @if (alumno.fechaBaja == null)
+                {
+                    <h4 class="alert-success">Fecha de baja:De alta</h4>
+                }
+                else
+                { 
+                    <h4 class="alert-danger">Fecha de baja:@alumno.fechaBaja</h4>
+                }
+            </div>
+            <div class="card-footer text-center">
+                <a href="/ListaAlumnos" class="btn btn-primary">Volver</a>
+                <a href="@($"/modificarAlumno/{alumno.id}")" class="btn btn-primary">Editar</a>
+                <a href="#" class="btn btn-danger">Borrar</a>
+            </div>
+        </div>
+    </div>
+</div>
+

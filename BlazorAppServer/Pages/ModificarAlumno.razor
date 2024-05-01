@@ -1,0 +1,144 @@
+﻿@page "/modificarAlumno/{id:int}"
+@using BlazorServer.Servicios;
+
+@using BlazorServer.Pages;
+@using LibreriaClases;
+@inherits NuevoAlumnoBase
+@inject IServicioAlumnos ServicioAlumnos
+@inject NavigationManager navigationManager
+
+<h3>Modificar Alumno</h3>
+<hr />
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@alumno.nombre</h1>
+            </div>
+            <div class="card-body text-center">
+                <img class="card-img-top" src="@alumno.foto" />
+            </div>
+        </div>
+        <EditForm Model="@alumno" OnValidSubmit="HandleValidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group row">
+                <label for="Nombre" class="col-sm-2 col-form-label">
+                    Nombre
+                </label>
+                <div class="col-sm-10">
+                    <InputText id="Nombre" class="form-control" placeholder="Nombre del alumno"
+                    @bind-Value="alumno.nombre" />
+                    <ValidationMessage For="@(() => alumno.nombre)" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Email" class="col-sm-2 col-form-label">
+                    Email
+                </label>
+                <div class="col-sm-10">
+                    <InputText id="Email" class="form-control" placeholder="Email"
+                    @bind-Value="alumno.email" />
+                    <ValidationMessage For="@(() => alumno.email)" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Foto" class="col-sm-2 col-form-label">
+                    Foto
+                </label>
+                <div class="col-sm-10">
+                    <InputFile OnChange="HandleFileSelected" />
+                    @if (file != null)
+                    {
+                        <p><strong>Fichero seleccionado: @file.Name</strong></p>
+                    }
+                </div>
+            </div>
+
+            <div class="row content">
+                <div class="col-md-2">
+                    <input type="submit" class="btn btn-primary" value="Guardar" @onclick="Guardar" />
+                </div>
+                <div class="col-md-2">
+                    <input type="button" value="Cancelar" class="btn btn-danger" @onclick="Cancelar" />
+                </div>
+            </div>
+
+
+        </EditForm>
+    </div>
+</div>
+
+
+
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    Alumno alumno = new Alumno();
+    IBrowserFile fichero;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id > 0)
+        {
+            alumno = await ServicioAlumnos.DameAlumnos(id);
+        }
+
+    }
+
+    public async void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+        await Guardar();
+    }
+
+    public void FicheroSeleccionado(IBrowserFile[] ficheros)
+    {
+        fichero = ficheros[0];
+        string extension = Path.GetExtension(fichero.Name);
+    }
+
+    protected async Task Guardar()
+    {
+        try
+        {
+            alumno.fechaAlta = DateTime.Now;
+
+            if (alumno.nombre != null && alumno.email != null && file != null)
+            {
+                var nombreFichero = "images/" + Guid.NewGuid() + ".jpg";
+                var ms = new MemoryStream();
+                await file.OpenReadStream(maxAllowedSize: 1024 * 1024 * 300).CopyToAsync(ms);
+                using (var fs = new FileStream("wwwroot/" + nombreFichero, FileMode.Create, FileAccess.Write))
+                {
+                    ms.WriteTo(fs);
+                }
+                alumno.foto = nombreFichero;
+                alumno = await ServicioAlumnos.Modificar(alumno.id, alumno);
+                NavigationManager.NavigateTo("/listaAlumnos");
+            }
+        }
+        catch (Exception ex)
+        {
+            // Manejar la excepción según sea necesario
+            Console.WriteLine($"Error al guardar: {ex.Message}");
+        }
+    }
+    protected void Cancelar()
+    {
+        NavigationManager.NavigateTo("/listaAlumnos");
+    }
+
+
+    public void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        file = e.File;
+        // Puedes realizar más validaciones o procesamientos aquí si es necesario
+    }
+}
+
+                
+
+

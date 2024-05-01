@@ -1,0 +1,76 @@
+﻿@page "/ListaCursosAlumno/{id:int}"
+@using BlazorServer.Servicios;
+
+@using BlazorServer.Pages;
+@using LibreriaClases;
+@inject IServicioAlumnos ServicioAlumnos
+@inject NavigationManager navigationManager
+
+
+<h1>Listado cursos </h1>
+<div class="form-group row">
+    <div class="col-sm-10">
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <a href="@($"InscribirAlumno/{id}")" class="btn btn-primary m-1">Inscribir alumno en curso</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (alumno == null)
+{
+    <div class="spinner"></div>
+}
+else if (alumno.ListaCurso==null)
+{ 
+    <p class="text-danger">Este alumno no está inscrito en ningún curso</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th><strong>Nombre</strong></th>
+                <th><strong>Email</strong></th>
+                <th><strong>Nombe curso</strong></th>
+                <th><strong>Precio</strong></th>
+                <th><strong>Fecha Inicio</strong></th>
+                <th><strong>Fecha Fin</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Curso c in alumno.ListaCurso)
+                @foreach (Precio p in c.ListaPrecio)
+                {
+                    <tr>
+                        <td>@alumno.nombre</td>
+                        <td>@alumno.email</td>
+                        <td>@c.NombreCurso</td>
+                        <td class="text-success"><strong>@p.Costo $</strong></td>
+                        <td>@p.fechaAlta.ToString("dd/MM/yyyy")</td>
+                        <td>@p.fechaBaja.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+
+}
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    private Alumno alumno;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id > 0)
+        {
+            alumno = await ServicioAlumnos.CursosInscritosAlumno(id);
+        }
+
+    }
+
+}

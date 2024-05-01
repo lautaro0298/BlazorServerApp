@@ -387,6 +387,110 @@ namespace APIAlumnos.Repositorio
 
             return lista;
         }
+
+        public async Task<Alumno> inscribirAlumnoCurso(Alumno Alumno, int idCurso)
+        {
+            Alumno alumnoInscrito = null;
+            SqlConnection sqlConexion = conexion();
+            SqlCommand Comm = null;
+
+            try
+            {
+                sqlConexion.Open();
+                Comm = sqlConexion.CreateCommand();
+                Comm.CommandText = "dbo.UsuarioInscribirCurso";
+                Comm.CommandType = CommandType.StoredProcedure;
+                Comm.Parameters.Add("@idAlumno", SqlDbType.Int).Value = Alumno.id;
+                Comm.Parameters.Add("idCurso", SqlDbType.VarChar, 500).Value = idCurso;
+
+                await Comm.ExecuteNonQueryAsync();
+
+                alumnoInscrito = await DameAlumnos(Alumno.id);
+
+
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error inscribiendo alumno en curso" + ex.Message);
+            }
+            finally
+            {
+                Comm.Dispose();
+                sqlConexion.Close();
+                sqlConexion.Dispose();
+            }
+
+            return alumnoInscrito;
+        }
+
+
+
+        public async Task<Alumno> AlumnoCurso(int idAlumno)
+        {
+            Alumno alumno = null;
+            SqlConnection sqlConexion = conexion();
+            SqlCommand Comm = null;
+            SqlDataReader reader = null;
+            try
+            {
+                sqlConexion.Open();
+                Comm = sqlConexion.CreateCommand();
+                Comm.CommandText = "dbo.UsuarioInscriptoCursos";
+                Comm.CommandType = CommandType.StoredProcedure;
+                Comm.Parameters.Add("@idAlumno", SqlDbType.Int).Value = idAlumno;
+                reader = await Comm.ExecuteReaderAsync();
+
+                while (reader.Read())
+                {
+                    if (alumno == null)
+                    {
+                        alumno = new Alumno();
+                        alumno.id = Convert.ToInt32(reader["id"]);
+                        alumno.nombre = reader["nombre"].ToString();
+                        alumno.email = reader["email"].ToString();
+                        alumno.foto = reader["foto"].ToString();
+                        alumno.ListaCurso = new List<Curso>();
+                    }
+
+                    int idCurso = Convert.ToInt32(reader["idCurso"]);
+
+                    // Buscar el curso en la lista actual
+                    Curso c = alumno.ListaCurso.FirstOrDefault(curso => curso.id == idCurso);
+
+                    // Si no se encuentra, crear un nuevo curso
+                    if (c == null)
+                    {
+                        c = new Curso();
+                        c.id = idCurso;
+                        c.NombreCurso = reader["NombreCurso"].ToString();
+                        c.ListaPrecio = new List<Precio>();
+                        alumno.ListaCurso.Add(c);
+                    }
+
+                    Precio p = new Precio();
+                    p.Costo = Convert.ToInt32(reader["Costo"]);
+                    p.fechaAlta = Convert.ToDateTime(reader["fechaAlta"]);
+                    p.fechaBaja = Convert.ToDateTime(reader["fechaBaja"]);
+                    c.ListaPrecio.Add(p);
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error cargando los datos de nuestro alumno " + ex.Message);
+            }
+            finally
+            {
+                if (reader != null)
+                    reader.Close();
+
+                Comm.Dispose();
+                sqlConexion.Close();
+                sqlConexion.Dispose();
+            }
+
+            return alumno;
+        }
+
     }
 }
 

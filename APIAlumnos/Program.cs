@@ -1,5 +1,6 @@
 using APIAlumnos.Datos;
 using APIAlumnos.Repositorio;
+using APICurso.Repositorio;
 using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<IRepositorioAlumnos , RepositiorioAlumnos>();
+builder.Services.AddScoped<IRepositorioCurso, RepositiorioCurso>();
+
 var conexion = new AccesoDatos(builder.Configuration.GetConnectionString("SQL"));
 builder.Services.AddSingleton(conexion);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

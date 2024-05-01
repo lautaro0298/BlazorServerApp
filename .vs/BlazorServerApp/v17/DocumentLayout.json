@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorCursoUdemy11.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorCursoUdemy11.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibreriaClases\\Precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibreriaClases\\Curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibreriaClases\\Alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazorCursoUdemy11.txt",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorCursoUdemy11.txt",
+              "RelativeDocumentMoniker": "BlazorCursoUdemy11.txt",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\BlazorCursoUdemy11.txt",
+              "RelativeToolTip": "BlazorCursoUdemy11.txt",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2023-12-28T20:32:44.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Precio.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Precio.cs",
+              "RelativeDocumentMoniker": "LibreriaClases\\Precio.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Precio.cs",
+              "RelativeToolTip": "LibreriaClases\\Precio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-23T05:55:10.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Curso.cs",
+              "RelativeDocumentMoniker": "LibreriaClases\\Curso.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Curso.cs",
+              "RelativeToolTip": "LibreriaClases\\Curso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-23T05:46:58.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Alumno.cs",
+              "RelativeDocumentMoniker": "LibreriaClases\\Alumno.cs",
+              "ToolTip": "C:\\Users\\Lautaro\\source\\repos\\lautaro0298\\BlazorServerApp\\LibreriaClases\\Alumno.cs",
+              "RelativeToolTip": "LibreriaClases\\Alumno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-23T05:41:56.407Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

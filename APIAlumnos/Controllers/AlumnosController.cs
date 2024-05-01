@@ -86,14 +86,11 @@ namespace APIAlumnos.Controllers
             }
         }
         [HttpDelete("id:int")]
-        public async Task<ActionResult<Alumno>> EliminarAlumno(int id, Alumno alumno)
+        public async Task<ActionResult<Alumno>> EliminarAlumno(int id)
         {
             try
             {
-                if (id != alumno.id)
-                {
-                    return BadRequest();
-                }
+                
                 var alumnoEliminar = await alumnosRepositorio.DameAlumnos(id);
                 if (alumnoEliminar == null)
                 {
@@ -116,7 +113,7 @@ namespace APIAlumnos.Controllers
                     return BadRequest();
                 }
                 var alumnoAux = await alumnosRepositorio.DameAlumnos(alumno.email);
-                if(alumnoAux == null)
+                if(alumnoAux != null)
                 {
                     ModelState.AddModelError("email", "el email ya esta esta en uso");
                     return BadRequest(ModelState) ;
@@ -127,6 +124,49 @@ namespace APIAlumnos.Controllers
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
+        [HttpPost("InscribirAlumno/{idCurso}")]
+        public async Task<ActionResult<Alumno>> InscribirAlumnoCurso([FromBody] Alumno alumno, int idCurso)
+        {
+            try
+            {
+                var alumnoValidar = await alumnosRepositorio.DameAlumnos(alumno.id);
+
+                if (alumnoValidar == null)
+                    return NotFound($"Alumno no encontrado");
+
+                return await alumnosRepositorio.inscribirAlumnoCurso(alumno, idCurso);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error inscribiendo alumno en curso");
+            }
+        }
+
+        [HttpGet("CursosAlumno/{idAlumno}")]
+        public async Task<ActionResult<Alumno>> AlumnoCursos(int idAlumno)
+        {
+            try
+            {
+                Alumno respuesta = null;
+                var alumnoValidar = await alumnosRepositorio.DameAlumnos(idAlumno);
+
+                if (alumnoValidar == null)
+                    return NotFound($"Alumno no encontrado");
+                respuesta = await alumnosRepositorio.AlumnoCurso(idAlumno);
+                if (respuesta == null)
+                {
+                    respuesta = alumnoValidar
+                        ;
+                }
+
+
+                return respuesta;
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo cursos alumno");
             }
         }
     }

@@ -17,7 +17,10 @@ namespace APIAlumnos.Repositorio
         Task<Alumno> ModificarAlumno(Alumno Alumno);
 
          Task<Alumno> BorrarAlumno(int id);
-        Task<IEnumerable<Alumno>>BuscarAlumnos(string texto);
+       
 
+        Task<IEnumerable<Alumno>>BuscarAlumnos(string texto);
+        Task<Alumno> inscribirAlumnoCurso(Alumno Alumno, int curso);
+        Task<Alumno> AlumnoCurso (int idAlumno);
     }
 }

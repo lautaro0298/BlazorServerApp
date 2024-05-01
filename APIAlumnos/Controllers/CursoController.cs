@@ -1,43 +1,131 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using APIAlumnos.Repositorio;
+using LibreriaClases;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace APIAlumnos.Controllers
+namespace APICurso.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CursoController : ControllerBase
+    public class CursoController : ControllerBase//Para las api web se utiliza contollerbase para las MVC controller
     {
-        // GET: api/<CursoController>
+        private readonly IRepositorioCurso CursoRepositorio;
+
+        public CursoController(IRepositorioCurso CursoRepositorio)
+        {
+            this.CursoRepositorio = CursoRepositorio;
+        }
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult> DameCurso()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                var resultado = await CursoRepositorio.DameCurso();
+                if (resultado == null)
+                {
+                    return NotFound();
+                }
+                else
+                    return Ok(resultado);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
         }
 
-        // GET api/<CursoController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("AlumnosCursos")]
+        public async Task<ActionResult> DameCurso(int id)
         {
-            return "value";
+            try
+            {
+                return Ok(await CursoRepositorio.DameCurso(id));
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
+        [HttpGet("{BuscarCurso}")]
+        public async Task<ActionResult> DameCurso(string texto)
+        {
+            try
+            {
+                return Ok(await CursoRepositorio.BuscarCurso(texto));
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
         }
 
-        // POST api/<CursoController>
+        [HttpPut("id:int")]
+        public async Task<ActionResult<Curso>> ModificarCurso(int id, Curso Curso)
+        {
+            try
+            {
+                if (id != Curso.id)
+                {
+                    return BadRequest();
+                }
+                var CursoModificar = await CursoRepositorio.DameCursos(id);
+                if (CursoModificar == null)
+                {
+                    return NotFound($"Curso con ={id} no encontrado");
+                }
+                return await CursoRepositorio.ModificarCurso(Curso);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
+        [HttpDelete("id:int")]
+        public async Task<ActionResult<Curso>> EliminarCurso(int id, Curso Curso)
+        {
+            try
+            {
+                if (id != Curso.id)
+                {
+                    return BadRequest();
+                }
+                var CursoEliminar = await CursoRepositorio.DameCursos(id);
+                if (CursoEliminar == null)
+                {
+                    return NotFound($"Curso con ={id} no encontrado");
+                }
+                return await CursoRepositorio.BorrarCurso(id);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
+        }
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<Curso>> CrearCurso(Curso Curso)
         {
-        }
-
-        // PUT api/<CursoController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<CursoController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            try
+            {
+                if (Curso == null)
+                {
+                    return BadRequest();
+                }
+                var CursoAux = await CursoRepositorio.DameCursos(Curso.NombreCurso);
+                if (CursoAux != null)
+                {
+                    ModelState.AddModelError("Nombre", "el nombre del curso ya esta esta en uso");
+                    return BadRequest(ModelState);
+                }
+                var nuevoCurso = await CursoRepositorio.AltaCurso(Curso);
+                return nuevoCurso;
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error obteniendo los datos");
+            }
         }
     }
 }
+

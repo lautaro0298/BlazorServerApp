@@ -1,0 +1,13 @@
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\bin\Release\net7.0\LibreriaClases.deps.json
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\bin\Release\net7.0\LibreriaClases.dll
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\bin\Release\net7.0\LibreriaClases.pdb
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.AssemblyInfo.cs
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.sourcelink.json
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.dll
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\refint\LibreriaClases.dll
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\LibreriaClases.pdb
+C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Release\net7.0\ref\LibreriaClases.dll

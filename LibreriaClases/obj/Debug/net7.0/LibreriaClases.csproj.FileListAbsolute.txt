@@ -1,7 +1,6 @@
 C:\Users\Lautaro\source\repos\lautaro0298\BlazorServerApp\LibreriaClases\bin\Debug\net7.0\LibreriaClases.deps.json
 C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\bin\Debug\net7.0\LibreriaClases.dll
 C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\bin\Debug\net7.0\LibreriaClases.pdb
-C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Debug\net7.0\LibreriaClases.csproj.AssemblyReference.cache
 C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Debug\net7.0\LibreriaClases.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Debug\net7.0\LibreriaClases.AssemblyInfoInputs.cache
 C:\Users\Lautaro\Source\Repos\lautaro0298\BlazorServerApp\LibreriaClases\obj\Debug\net7.0\LibreriaClases.AssemblyInfo.cs
